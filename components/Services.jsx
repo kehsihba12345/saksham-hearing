@@ -15,7 +15,7 @@ const Services = () => {
 			id='service'
 			className='max-w-[1240px] mx-auto py-24 text-center overflow-hidden'>
 			<h1 className='text-5xl font-bold py-10 uppercase'>Services</h1>
-			<div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 '>
+			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 '>
 				<div className='flex flex-col justify-center items-center p-10 ease-in duration-200 hover:scale-[1.05]'>
 					<div className='rounded-3xl p-8 lg:p-4 shadow-lg'>
 						<Img
