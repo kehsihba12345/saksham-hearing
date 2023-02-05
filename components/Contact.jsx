@@ -18,7 +18,6 @@ const Contact = () => {
 			return true;
 		}
 		if (itemType === 'email') {
-			console.log(validEmail.test(itemValue));
 			if (!validEmail.test(itemValue)) {
 				return true;
 			}
