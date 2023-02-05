@@ -35,7 +35,7 @@ const Navbar = () => {
 				</Link>
 				<ul
 					style={{ color: `${textColor}` }}
-					className='hidden sm:flex'>
+					className='hidden sm:flex text-lg font-semibold'>
 					<li className='p-4'>
 						<Link href='/'>Home</Link>
 					</li>
