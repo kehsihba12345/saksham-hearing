@@ -68,10 +68,10 @@ const Contact = () => {
 	};
 
 	return (
-		<Container maxW={450}>
-			<div
-				id='contact'
-				className='max-w-[1240px] mx-auto py-24 mb-20 text-center overflow-hidden'>
+		<div
+			id='contact'
+			className='max-w-[1240px] mx-auto py-24 mb-20 text-center overflow-hidden'>
+			<Container maxW={450}>
 				<h1 className='text-5xl font-bold p-5 uppercase'>Contact Us</h1>
 				{error && (
 					<Text
@@ -156,8 +156,8 @@ const Contact = () => {
 					onClick={onSubmit}>
 					Submit
 				</Button>
-			</div>
-		</Container>
+			</Container>
+		</div>
 	);
 };
 
